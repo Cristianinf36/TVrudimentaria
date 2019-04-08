@@ -246,5 +246,11 @@ namespace CristianTV
         private bool power;
         private string[,] canales;
         private string urlCanal;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 ayuda = new Form2();
+            ayuda.Show();
+        }
     }
 }
